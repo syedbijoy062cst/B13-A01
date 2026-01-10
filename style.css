@@ -4,7 +4,7 @@
 }
 header{
     /* display: flex; */
-    background-color: #b2e212cb;
+    background-color: rgba(255, 255, 255, 1);
     max-width: 1600px;
 
 }
@@ -49,6 +49,7 @@ header{
 }
 
 .btn{
+    align-items: center;
     margin-right:120px ;
     width: 164px;
     height: 44px;
@@ -179,6 +180,7 @@ section .hero-contant{
     max-width: 1600px;
     height: 448px;
     background-color: rgba(255, 255, 255, 1);
+    padding-bottom: 0px;
 }
 #card-contant .box-hading{
     text-align: center;
@@ -187,24 +189,134 @@ section .hero-contant{
 .box-hading h1{
     font-size: 48px;
     font-weight: 700px;
-    color:rgb(0, 25, 49);
+    color:rgba(0, 25, 49, 1);
 }
+
 .title{
-    color:c rgba(98, 115, 130, 1);
+    color: rgba(98, 115, 130, 1);
     margin-top:  16px;
     font-size: 16px;
 }
 .cards{
+    margin: 0 auto;
+    max-width: 1360px;
+    height: 300px;
+    display: flex;
     margin-top: 60px;
-    display:grid;
-    gap: 30px;
+    gap: 24px;
+    justify-content:center;
 }
 .card{
-    background-color: #FFFFFF;
-    color: antiquewhite;
-    padding: 40px 25px;
-    border-radius: 14px;
-    box-shadow: 0 0 0 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background: rgba(255, 255, 255, 1);;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 
 }
-.card img{}
+.card img{
+    max-width: 60px;
+    max-height: 60px;
+    padding: 13px 14px 13px 14px;
+    border-radius:100%;
+    background-color:#F95555;
+}
+.card h3{
+    font-size: 24px;
+    font-style: 600px;
+    text-align: center;
+    line-height: 29px;
+    
+}
+.card p{
+    max-width: 244px;
+    height: 40px;
+    font-size: 16px;
+    font-style: 400px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(98, 115, 130, 1);
+    gap: 16;
+}
+
+#Brain-section{
+    margin: 0 auto;
+    padding-top: 120px;
+    max-width: 1600px ;
+    height: 600px;
+    padding: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+
+}
+#Brain-section .Brain-contant{
+    width: 1600px;
+    height: 840px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap: 40px;
+    padding: 120px;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+.Brain-contant-sob{
+    width: 700px;
+    height: 396px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px ;
+    align-items: flex-start;
+}
+.Brain-contant-sob span{
+    color:#469165;
+    width: 700px;
+    height: 20px;
+    font-size: 16px;
+    font-style: 500px;
+    line-height: 20px;
+    text-align: left;
+}
+.Brain-contant-sob h1{
+    width: 700px;
+    height: 116px;
+    font-size: 48px;
+    font-style: 700px;
+    line-height: 20px;
+    text-align: left;
+    line-height: 58px;
+    color: rgba(0, 25, 49, 1);
+}
+.Brain-contant-sob p{
+    width: 700px;
+    height: 60px;
+    font-size: 16px;
+    font-style: 400px;
+    line-height: 20px;
+    text-align: left;
+    font-weight: 400px;
+    color: rgba(98, 115, 130, 1);
+}
+.Brain-contant-sob h4{
+    width: 382px;
+    height: 20px;
+    gap:16px ;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: column;
+    color:rgba(0, 25, 49, 1);
+}
+.Brain-contant-sob h4 img{
+    max-width: 20px;
+    height: 20px;
+    gap: 6;
+}
