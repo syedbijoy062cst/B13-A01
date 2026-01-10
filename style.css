@@ -382,5 +382,60 @@ section .hero-contant{
     /* font-style:600px;
     font-size:600; */
     cursor: pointer;
-    gap: 10;
+    gap:24;
 }
+.footer{
+width: 1600px;
+height: 348px;
+gap: 80;
+padding: 120px 120px 30px 120px;
+background-color: rgba(0, 25, 49, 1) ;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    
+}
+
+.footer-left .logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #cfd8dc;
+    margin-left: 50px;
+}
+
+.footer-right h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.social-icons a {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    color: rgba(250, 250, 250, 1);
+}
+
+
+
+    
+
