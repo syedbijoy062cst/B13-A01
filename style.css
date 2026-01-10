@@ -180,7 +180,7 @@ section .hero-contant{
     max-width: 1600px;
     height: 448px;
     background-color: rgba(255, 255, 255, 1);
-    padding-bottom: 0px;
+    
 }
 #card-contant .box-hading{
     text-align: center;
@@ -198,7 +198,7 @@ section .hero-contant{
     font-size: 16px;
 }
 .cards{
-    margin: 0 auto;
+    /* margin: 0 auto; */
     max-width: 1360px;
     height: 300px;
     display: flex;
@@ -242,17 +242,24 @@ section .hero-contant{
     color: rgba(98, 115, 130, 1);
     gap: 16;
 }
+#Brain-section .Brain-img{
+    max-width: 600px;
+    height: 600px;
+    text-align: right;
+
+}
+
 
 #Brain-section{
+   
     margin: 0 auto;
-    padding-top: 120px;
     max-width: 1600px ;
-    height: 600px;
+    height:840px;
     padding: 120px;
-    display: flex;
+    /* display: flex; 
     justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: column; */
 
 
 }
@@ -263,7 +270,7 @@ section .hero-contant{
     justify-content:flex-start;
     align-items:center;
     gap: 40px;
-    padding: 120px;
+    /* padding: 120px; */
     background-color: rgba(255, 255, 255, 1);
 
 }
