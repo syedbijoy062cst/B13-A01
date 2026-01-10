@@ -342,10 +342,12 @@ section .hero-contant{
     /* border: 1px solid red; */
 }
 .Early-Access-section .Early-Access{
+    padding-top: 24px;
     max-width: 1360px;
     height: 384px;
     background-color: rgba(247, 246, 242, 1);
-    padding: 80px 40px ;
+    padding: 80px 40px 80px 40px;
+    margin-bottom: 16px;
 }
 .Early-Access-section .Early-Access h1{
     font-size: 40px;
@@ -353,6 +355,8 @@ section .hero-contant{
     text-align: center;
     line-height:48px;
     font-weight: 700px;
+    margin-bottom:16px;
+   
 
 }
 .Early-Access-section .Early-Access p{
@@ -364,6 +368,7 @@ section .hero-contant{
     text-align:center;
     font-weight: 400px;
     color: rgba(98, 115, 130, 1);
+    margin-bottom:24px;
 }
 .Early-button{
     margin: 0 auto;
@@ -383,6 +388,7 @@ section .hero-contant{
     font-size:600; */
     cursor: pointer;
     gap:24;
+    margin-bottom:16px ;
 }
 .footer{
 width: 1600px;
@@ -424,7 +430,7 @@ background-color: rgba(0, 25, 49, 1) ;
     color: #fff;
     margin-left: 15px;
     font-size: 18px;
-    transition: 0.3s;
+    transition: 0.3;
 }
 
 .footer-bottom {
