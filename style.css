@@ -3,20 +3,21 @@
     box-sizing: border-box;
 }
 header{
-    display: flex;
+    /* display: flex; */
     background-color: #b2e212cb;
     max-width: 1600px;
 
 }
 .navber-contant{
-    width: 71%;
+    width: 98%;
     max-width: 1600px;
+    height: 92px;
     /* border: 1px solid red; */
     /* margin:16px 120px 16px 120px auto; */
     display: flex;
+    text-align: center;
     justify-content: space-between;
     align-items: center;
-    /* margin: 0 auto; */
     
 }
 .nav-img{
@@ -26,16 +27,20 @@ header{
 .li-itam{
     display: flex;
     list-style: none;
+    font-size: 16px;
     gap: 32px;
     align-items: center;
+    text-align: center;
+    color: #000000;
+    /* justify-content: space-between; */
+    /* justify-content: space-between; */
 
     
       
 }
 .li-itam li a{
-    font-size: 16px;
-    width: auto 67px;
-    height:auto 24px;
+    /* max-width: auto 67px;
+    height:auto 24px; */
     gap: 32px;
     line-height: 152%;
     font-weight: 500px;
@@ -44,6 +49,7 @@ header{
 }
 
 .btn{
+    margin-right:120px ;
     width: 164px;
     height: 44px;
     background-color:#30B868;
@@ -55,7 +61,6 @@ header{
     font-size:600;
     line-height: 19px;
     cursor: pointer;
-    justify-items: left;
 }
 
 main{
@@ -173,5 +178,33 @@ section .hero-contant{
 #card-contant{
     max-width: 1600px;
     height: 448px;
-    
+    background-color: rgba(255, 255, 255, 1);
 }
+#card-contant .box-hading{
+    text-align: center;
+    padding: 80px 70px;
+}
+.box-hading h1{
+    font-size: 48px;
+    font-weight: 700px;
+    color:rgb(0, 25, 49);
+}
+.title{
+    color:c rgba(98, 115, 130, 1);
+    margin-top:  16px;
+    font-size: 16px;
+}
+.cards{
+    margin-top: 60px;
+    display:grid;
+    gap: 30px;
+}
+.card{
+    background-color: #FFFFFF;
+    color: antiquewhite;
+    padding: 40px 25px;
+    border-radius: 14px;
+    box-shadow: 0 0 0 6px;
+
+}
+.card img{}
